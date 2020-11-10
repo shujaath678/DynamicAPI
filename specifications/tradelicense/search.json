@@ -1,0 +1,9 @@
+{
+    "searchTradeLicense": {
+      "type": "Textfield",
+      "props": {
+        "label": "application id",
+        "required": true
+      }
+    }
+}
