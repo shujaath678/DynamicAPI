@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Remove="MiddleWare\" />
+    <None Remove="BusinessLogic\" />
+    <None Remove="Services\" />
+    <None Remove="DbManagment\" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MiddleWare\" />
+    <Folder Include="BusinessLogic\" />
+    <Folder Include="Services\" />
+    <Folder Include="DbManagment\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+</Project>
